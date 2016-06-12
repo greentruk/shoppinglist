@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Household Shopping List</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<link href='https://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="app.js"></script>
+        
+        <!-- input box & add items box-->
+        <div class="container">Grocery List</div>
+        <form id="userinput">
+            <input type="text" id="inputBox" value="" placeholder="Type in an item and hit 'Enter'" size="30">
+            <button type="submit" id="addItem">Add Item</button>
+        </form>
+        <!-- shopping list -->
+<div class="allitems">
+            <ul style="list-style: none;">
+                <li class="currentItem">
+                    <img class="checked" src="checkbox.png"> milk <img class="trash" src="trashcan.png">
+                </li>
+                <li class="currentItem">
+                    <img class="checked" src="checkbox.png"> apples <img class="trash" src="trashcan.png">
+                </li>
+                <li class="currentItem">
+                    <img class="checked" src="checkbox.png"> eggs <img class="trash" src="trashcan.png">
+                </li>
+                <li class="currentItem">
+                    <img class="checked" src="checkbox.png"> toilet paper <img class="trash" src="trashcan.png">
+                </li>
+            </ul>
+        </div>
+</body>
+</html>
