@@ -16,4 +16,15 @@ background-repeat: no-repeat;
  	font-family: 'Homemade Apple', cursive;
   	color: #5c6274;
   	text-align: center;
+	font-size: 1.5em;
 }
+
+li.currentitem-linethrough {
+	text-decoration: line-through;
+}
+
+.checked, .trash {
+	vertical-align: middle;
+}
+
+
